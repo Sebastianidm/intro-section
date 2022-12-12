@@ -1,0 +1,36 @@
+.containerHome {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+}
+
+.containerHijo {
+    margin: 40px;
+}
+.imgHome {
+    padding-left: 100px;
+    margin: 100px;
+    width: 480px;
+    height: 640px ;
+}
+
+.botonHome
+{
+ width: 163px;
+ height: 56px;
+ color: white;
+ background-color: black ;
+ border: solid;
+ border-radius: 30px;
+}
+
+
+.listaIcono {
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    gap: 40px;
+}
