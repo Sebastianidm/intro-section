@@ -5,11 +5,17 @@
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: ". .";
+
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 25px;
 }
 
-.containerHijo {
-    margin: 40px;
+.titulo {
+    font-weight: 700;
+    font-size: 70px
 }
+
 .imgHome {
     padding-left: 100px;
     margin: 100px;
@@ -17,8 +23,12 @@
     height: 640px ;
 }
 
+.ladoIzquierdo {
+    margin: 100px;
+}
 .botonHome
 {
+ margin-top: 40px;
  width: 163px;
  height: 56px;
  color: white;
@@ -29,8 +39,8 @@
 
 
 .listaIcono {
+    margin-top: 180px;
     display: flex;
     flex-direction: row;
-    margin-top: 400px;
     gap: 40px;
 }

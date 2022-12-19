@@ -7,3 +7,42 @@
     padding-top: 10px;
 }
 
+
+.navIzquierdo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 1000px;
+    margin-left: 2px;
+    
+}
+.navItem {
+    padding-left: 45px;
+    margin-top: 3px;
+}
+
+.navDerecho {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginButton {
+    
+    width: 80px;
+    height: 35px;
+    border: black;
+    border: solid;
+    border-radius: 6px;
+    border-width: 2px;
+
+}
+
+.resgisterButton{
+    margin-left: 10px;
+    width: 80px;
+    height: 35px;
+    border: black;
+    border: solid;
+    border-radius: 6px;
+    border-width: 2px;
+}
